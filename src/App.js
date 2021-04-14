@@ -1,11 +1,7 @@
 import React from 'react';
+import Game from './components/Game';
 
-function App() {
-  return (
-    <div>
-      Tic Tac Toe
-    </div>
-  );
-}
+const App = () => <Game />;
+
 
 export default App;
